@@ -1,6 +1,6 @@
 ## Background
 
-For information on this project's research questions and background, read report.pdf.
+For information regarding this project's research questions, findings, etc. read report.pdf.
 
 ## Download information
 To run this project, you will need to install:
@@ -48,6 +48,9 @@ Link: https://simplemaps.com/data/world-cities
 `ne_110m_admin_0_countries`: This folder stores the shape data necessary to
 plot a map of the world.
 Link: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
+
+`report.pdf`: File summarizing project research questions, methods, findings,
+and impacts and limitations.
 
 ## Running instructions
 Running `load_data.py` populates the file `wiki_cache.csv` with the data that
