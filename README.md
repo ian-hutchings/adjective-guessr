@@ -1,3 +1,7 @@
+## Background
+
+For information on this project's research questions and background, read report.pdf.
+
 ## Download information
 To run this project, you will need to install:
 * wikipediaapi: a Python wrapper for Wikipedia's API
