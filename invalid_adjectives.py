@@ -1,0 +1,56 @@
+"""
+Ian Hutchings | Section AA
+This file contains a list of adjectives that are either:
+(a) too vague and too common, adding noise to the data or
+(b) specific to a country or continent, "giving away" the city location.
+"""
+
+
+INVALID_ADJECTIVES = [
+    '-',
+    'such', 'major', 'main', 'other', 'several', 'more', 'average', 'high',
+    'low', 'large', 'largest', 'many', 'most', 'first', 'second', 'national',
+    'international', 'same', 'total', 'public', 'private', 'median',
+    'european', 'african', 'asian', 'arab',
+    "american", "canadian", "mexican",
+    "argentinian", "argentine", "brazilian", "chilean", "colombian",
+    "ecuadorian", "peruvian", "uruguayan", "venezuelan", "bolivian",
+    "paraguayan",
+    "albanian", "andorran", "armenian", "austrian", "azerbaijani",
+    "belarusian", "belgian", "bosnian", "bulgarian",
+    "croatian", "cypriot", "czech", "danish", "estonian", "finnish", "french",
+    "georgian", "german", "greek",
+    "hungarian", "icelandic", "irish", "italian", "kazakh", "kosovar",
+    "latvian", "liechtensteiner", "lithuanian",
+    "luxembourgish", "maltese", "moldovan", "monégasque", "montenegrin",
+    "dutch", "north macedonian", "norwegian",
+    "polish", "portuguese", "romanian", "russian", "san marinese", "serbian",
+    "slovak", "slovene", "solvenian", "spanish", "swedish",
+    "swiss", "turkish", "ukrainian", "british", "english", "scottish",
+    "welsh", "vatican",
+    "algerian", "angolan", "beninese", "botswanan", "burkinabe", "burundian",
+    "cabo verdian", "cameroonian", "central african",
+    "chadian", "comorian", "congolese", "djiboutian", "egyptian",
+    "equatoguinean", "eritrean", "eswatini", "ethiopian",
+    "gabonese", "gambian", "ghanaian", "guinean", "ivorian", "kenyan",
+    "lesotho", "liberian", "libyan", "malagasy", "malawian",
+    "malian", "mauritanian", "mauritian", "moroccan", "mozambican",
+    "namibian", "nigerien", "nigerian", "rwandan",
+    "sao tomean", "senegalese", "seychellois", "sierra leonean", "somali",
+    "south african", "sudanese", "tanzanian",
+    "togolese", "tunisian", "ugandan", "zambian", "zimbabwean",
+    "afghan", "armenian", "azerbaijani", "bahraini", "bangladeshi",
+    "bhutanese", "bruneian", "burmese", "cambodian", "cantonese", "chinese",
+    "cypriot", "east timorese", "filipino", "georgian", "indian",
+    "indonesian", "iranian", "iraqi", "israeli", "japanese", "jordanian",
+    "kazakh", "korean", "kuwaiti", "kyrgyz", "laotian", "lebanese",
+    "malaysian", "maldivian", "mongolian", "nepali", "north korean",
+    "omani", "pakistani", "palestinian", "persian", "philippine", "qatari",
+    "saudi", "singaporean", "south korean", "sri lankan",
+    "syrian", "tajik", "thai", "turkmen", "emirati", "uzbek", "vietnamese",
+    "yemeni",
+    "australian", "fijian", "kiribati", "marshallese", "micronesian",
+    "nauruan", "new zealander", "niuean", "palauan",
+    "papua new guinean", "samoan", "solomon islander", "tongan", "tuvaluan",
+    "vanuatuan",
+    "antarctic"]

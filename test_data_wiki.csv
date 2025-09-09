@@ -1,0 +1,6 @@
+"city","lat","lng","country","iso2","continent","adjectives"
+"Tokyo","35.6870","139.7495","Japan","JP","Asia","{'central': 2, 'annual': 2, 'middle': 2}"
+"Jakarta","-6.1750","106.8275","Indonesia","ID","Asia","{'local': 7, 'military': 2, 'economic': 2}"
+"Delhi","28.6100","77.2300","India","IN","Asia","{'central': 3, 'urban': 3, 'proper': 2}"
+"Guangzhou","23.1300","113.2600","China","CN","Asia","{'oldest': 2, 'southern': 1, 'outer': 1}"
+"New York","40.6943","-73.9249","United States","US","North America","{'new': 20, '20th': 11, 'non': 7}"
